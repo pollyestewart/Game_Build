@@ -16,8 +16,8 @@ class Game:
 
         self.clock = pygame.time.Clock()
 
-        self.background = GameObject(0, 0, self.width, self.height, 'GamePlay/assets/background.png')
-        self.treasure = GameObject(385, 60, 40, 40, 'GamePlay/assets/treasure.png')
+        self.background = GameObject(0, 0, self.width, self.height, 'PlayGame/assets/background.png')
+        self.treasure = GameObject(385, 60, 40, 40, 'PlayGame/assets/treasure.png')
 
         self.level = 1.0
 
@@ -25,24 +25,24 @@ class Game:
 
     def reset_map(self):
 
-        self.player = Player(375, 700, 50, 50, 'GamePlay/assets/player.png', 10)  # 10 pixels per update
+        self.player = Player(375, 700, 50, 50, 'PlayGame/assets/player.png', 10)  # 10 pixels per update
 
         speed = 1 + (self.level * 5)
 
         if self.level >= 4.0:
             self.enemies = [
-                Enemy(0, 600, 50, 50, 'GamePlay/assets/enemy.png', speed),
-                Enemy(750, 400, 50, 50, 'GamePlay/assets/enemy.png', speed),
-                Enemy(0, 200, 50, 50, 'GamePlay/assets/enemy.png', speed)
+                Enemy(0, 600, 50, 50, 'PlayGame/assets/enemy.png', speed),
+                Enemy(750, 400, 50, 50, 'PlayGame/assets/enemy.png', speed),
+                Enemy(0, 200, 50, 50, 'PlayGame/assets/enemy.png', speed)
             ]
         elif self.level >= 2.0:
             self.enemies = [
-                Enemy(0, 600, 50, 50, 'GamePlay/assets/enemy.png', speed),
-                Enemy(750, 400, 50, 50, 'GamePlay/assets/enemy.png', speed)
+                Enemy(0, 600, 50, 50, 'PlayGame/assets/enemy.png', speed),
+                Enemy(750, 400, 50, 50, 'PlayGame/assets/enemy.png', speed)
             ]
         else:
             self.enemies = [
-                Enemy(0, 600, 50, 50, 'GamePlay/assets/enemy.png', speed)
+                Enemy(0, 600, 50, 50, 'PlayGame/assets/enemy.png', speed)
             ]
 
     def draw_objects(self):
