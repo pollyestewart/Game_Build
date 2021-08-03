@@ -22,7 +22,7 @@ The objective of the game is to get to the pub by avoiding contact with COVID-19
 
 # Run through terminal 
 1. Clone the repo locally
-2. Within the cloned folder execute `python GamePlay`
+2. Within the cloned folder execute `python PlayGame`
 3. Enjoy the game!     
 
 
