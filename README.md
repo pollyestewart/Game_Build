@@ -1,6 +1,6 @@
 # Game_Build
 
-A package built using PyGame that can be used to either start learning Object-Orientated Python programming, or to just play a simple-yet-frustrating game. Features my own artistic interpretation of a cartoon coronavirus!
+A package built using PyGame that can either be a learning tool for Object-Orientated Python programming or a fun, simple-but-annoying game. It also features my own artistic interpretation of a cartoon coronavirus!
 
 The objective of the game is to get to the pub by avoiding contact with COVID-19. Much like real-life, the more you visit the pub the harder it is to avoid COVID, so you may need to isolate (aka start from the beginning...)
 
@@ -22,7 +22,7 @@ The objective of the game is to get to the pub by avoiding contact with COVID-19
 
 # Run through terminal 
 1. Clone the repo locally
-2. Within the cloned folder `python GamePlay`
+2. Within the cloned folder execute `python GamePlay`
 3. Enjoy the game!     
 
 
